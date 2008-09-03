@@ -13,6 +13,6 @@ record will be.
 
 h2. Example
 
-  Company.has_many :employees, :dependent => :destroy
-  @company.dependent_records
-  # => {"employees"=>[#<Employee id: 1>, #<Employee id: 2>]}
+<pre><code>Company.has_many :employees, :dependent => :destroy
+@company.dependent_records
+# => {"employees"=>[#(Employee id: 1), #(Employee id: 2)]}</code></pre>
