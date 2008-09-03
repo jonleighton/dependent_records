@@ -3,16 +3,16 @@ h2. Dependent Records
 This Rails plugin reflects on a model's associations, and returns a hash
 of those which:
 
-  1. Are not join associations
-  2. Have the option @:dependent => :destroy@
-  3. Are not empty
-  4. Are one-to-many or many-to-many
+# Are not join associations
+# Have the option @:dependent => :destroy@
+# Are not empty
+# Are one-to-many or many-to-many
 
 I use it to show the user what the consequences of deleting a particular
 record will be.
 
 h2. Example
 
-<pre><code>Company.has_many :employees, :dependent => :destroy
-@company.dependent_records
-# => {"employees"=>[#<Employee id: 1>, #<Employee id: 2>]}</code></pre>
+  Company.has_many :employees, :dependent => :destroy
+  @company.dependent_records
+  # => {"employees"=>[#<Employee id: 1>, #<Employee id: 2>]}
