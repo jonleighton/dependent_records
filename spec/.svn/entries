@@ -1,0 +1,40 @@
+8
+
+dir
+611
+svn://67.207.128.158/insight/trunk/vendor/plugins/dependent_records/spec
+svn://67.207.128.158
+
+
+
+2008-07-25T17:33:45.771607Z
+435
+jonleighton
+
+
+svn:special svn:externals svn:needs-lock
+
+dependent_records_spec.rb
+file
+
+
+
+
+2008-07-25T17:19:44.000000Z
+0cd56feb886cb6ba2421b757e8eb4d52
+2008-07-25T17:33:45.771607Z
+435
+jonleighton
+
+spec_helper.rb
+file
+
+
+
+
+2008-07-25T16:43:52.000000Z
+f96a46dd65a27f7fead88487bf5b71a3
+2008-07-25T17:33:45.771607Z
+435
+jonleighton
+
